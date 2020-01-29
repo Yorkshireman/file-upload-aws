@@ -18,7 +18,6 @@ module.exports.requestUploadURL = (event, _, callback) => {
   callback(null, {
     statusCode: 200,
     headers: {
-      // 'Access-Control-Allow-Origin': 'https://frosty-morse-b7b3c9.netlify.com'
       'Access-Control-Allow-Origin': '*'
     },
     body: JSON.stringify({ uploadURL: uploadURL }),
