@@ -38,7 +38,3 @@ resources:
             - "*"
             AllowedHeaders:
             - "*"
-#  Outputs:
-#     NewOutput:
-#       Description: "Description for the output"
-#       Value: "Some output value"
